@@ -1,5 +1,6 @@
 <<<<<<< HEAD
-This is some content on main branch.
+# ShoppingList
+This is shopping list on a GitHub
 =======
-This is some content on master branch.
+# Shopping-list
 >>>>>>> master
