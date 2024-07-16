@@ -5,6 +5,9 @@
 .list-group-item {
   border: none !important;
 }
+.f-s-4 {
+  font-size: 3.5em !important;
+}
 /* .non-td {
   text-decoration: none !important;
 }
