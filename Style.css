@@ -1,0 +1,16 @@
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.list-group-item {
+  border: none !important;
+}
+.f-s-4 {
+  font-size: 3.5em !important;
+}
+/* .non-td {
+  text-decoration: none !important;
+}
+.non-td:active {
+  text-decoration: none !important;
+} */
