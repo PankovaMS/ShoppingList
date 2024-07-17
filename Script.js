@@ -59,4 +59,45 @@
 //   // Снятие выделения - ВНИМАНИЕ: вы должны использовать
 //   // removeRange(range) когда это возможно
 //   window.getSelection().removeAllRanges();  
-// }); 
+// // }); 
+// document.getElementById('rename-item').addEventListener('click', function(event) {
+//     event.preventDefault();
+    
+//     // Получаем кнопку
+//     const mainButton = document.getElementById('main-button');
+    
+//     // Получаем текущий текст кнопки
+//     const currentText = mainButton.innerText;
+    
+//     // Спрашиваем у пользователя новый текст
+//     const newText = prompt("Enter new text:", currentText);
+    
+//     // Если пользователь ввел новый текст и он не пустой
+//     if (newText !== null && newText.trim() !== '') {
+//       mainButton.innerText = newText;
+//     }
+//   });
+  // Находим все элементы с классом rename-item и добавляем обработчик события
+document.querySelectorAll('.rename-item').forEach(function(item) {
+    item.addEventListener('click', function(event) {
+      event.preventDefault();
+      
+      // Получаем id из атрибута data-id
+      const id = this.getAttribute('data-id');
+      
+      // Находим соответствующую кнопку с таким же data-id
+      const mainButton = document.querySelector('.main-button[data-id="' + id + '"]');
+      
+      // Получаем текущий текст кнопки
+      const currentText = mainButton.innerText;
+      
+      // Спрашиваем у пользователя новый текст
+      const newText = prompt("Enter new text:", currentText);
+      
+      // Если пользователь ввел новый текст и он не пустой
+      if (newText !== null && newText.trim() !== '') {
+        mainButton.innerText = newText;
+      }
+    });
+  });
+  

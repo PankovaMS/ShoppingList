@@ -16,10 +16,12 @@
 } */
 
 .dropdown-item:active {
-  background-color: #6c757d !important; 
+  background-color: #1d1e1f !important;
 
 }
 .margin-auto {
   margin: auto !important;
 }
-
+.main-button:active {
+  background-color: #1d1e1f !important;
+}

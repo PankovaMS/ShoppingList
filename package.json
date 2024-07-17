@@ -1,0 +1,23 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD # ShoppingList This is shopping list on a GitHub ======= # Shopping-list >>>>>>> master",
+  "main": "Script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PankovaMS/ShoppingList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PankovaMS/ShoppingList/issues"
+  },
+  "homepage": "https://github.com/PankovaMS/ShoppingList#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
