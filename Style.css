@@ -1,5 +1,5 @@
 .montserrat {
-  font-family: "Montserrat", sans-serif;
+  font-family:"Montserrat", sans-serif;
   font-style: normal;
 }
 .list-group-item {
@@ -14,3 +14,12 @@
 .non-td:active {
   text-decoration: none !important;
 } */
+
+.dropdown-item:active {
+  background-color: #6c757d !important; 
+
+}
+.margin-auto {
+  margin: auto !important;
+}
+

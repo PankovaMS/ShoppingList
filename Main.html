@@ -69,7 +69,7 @@
                   <label class="form-check-label" for="dropdownCheck2">
                     Remember me
                   </label>
-                  <a href="#"
+                  <a href="#" title="Sign Up"
                     ><p class="text-end fw-light text-body-secondary">
                       Don't have any account?
                     </p></a
@@ -251,7 +251,7 @@
               />
             </li>
             <li class="list-group-item">
-              <button type="button" class="btn">
+              <button type="button" class="btn" title="Add new point">
               <!-- <a href="#"> -->
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -269,17 +269,18 @@
                </button>
             </li>
             <li class="list-group-item d-flex">
-              <div class="">
-                <button type="button" class="btn btn-primary btn-sm">
+              <div class="d-flex">
+              <!-- <div class=""> -->
+                <button type="button" class="btn btn-primary btn-sm margin-auto">
                   Save
                 </button>
-                <button type="button" class="btn btn-secondary btn-sm">
+                <button type="button" class="btn btn-secondary btn-sm margin-auto">
                   Cancel
                 </button>
-              </div>
-              <div class="d-flex">
-                <div id="liveAlertPlaceholder"></div>
-                <button type="button" class="btn" id="liveAlertBtn">
+              <!-- </div> -->
+            
+                <!-- <div id="liveAlertPlaceholder"></div> -->
+                <button class="btn margin-auto" title="Copy link" onclick='CopyFunction()' id="CopyLink">
                   <!-- <a href="file:///home/margo/Documents/Shopping%20List/Main.html#" id="liveAlertBtn" data-link="file:///home/margo/Documents/Shopping%20List/Main.html#"> -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -298,7 +299,7 @@
                   </svg>
                   <!-- </a> -->
                 </button>
-                <button type="button" class="btn">
+                <button type="button" class="btn margin-auto " title="Edit list">
                 <!-- <a href="#"> -->
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -318,7 +319,11 @@
             </li>
           </ul>
         </div>
-        <div class="col"></div>
+        <div class="col">
+          <!-- <p>Email me at <a class="js-emaillink" href="#">matt@example.co.uk</a></p>
+
+<p><button class="js-emailcopybtn"><img src="./images/copy-icon.png" /></button></p> -->
+        </div>
       </div>
     </div>
     <script src="Script.js"></script>
