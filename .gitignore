@@ -82,3 +82,5 @@ public
 # TernJS port file
 .tern-port
 
+# SWAP
+*.swp
