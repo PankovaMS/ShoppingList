@@ -84,3 +84,6 @@ public
 
 # SWAP
 *.swp
+
+# bad files, tests, other
+ver1.html
