@@ -82,8 +82,3 @@ public
 # TernJS port file
 .tern-port
 
-# MacOS
-.DS_Store
-
-# Windows
-Thumbs.db
